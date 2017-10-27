@@ -1,0 +1,26 @@
+<ion-header>
+
+  <ion-navbar color="rebeccapurple">
+    <ion-title>Recordes</ion-title>
+  </ion-navbar>
+
+  <ion-toolbar>
+    <label class="id tabela peta"> Pos </label>
+    <label class="tabela"> Nome </label>
+    <label class="pontuacao tabela peta"> Pontos </label>
+  </ion-toolbar>
+
+</ion-header>
+
+
+<ion-content padding>
+
+  <ion-list *ngFor="let recorde of recordes">
+    <ion-item>
+      <label class="id">{{recordes.indexOf(recorde)+1}}º </label>
+      <label class="nome">{{recorde.nome}}</label>
+      <label class="pontuacao">{{recorde.pontos}}</label>
+    </ion-item>
+  </ion-list>
+  
+</ion-content>

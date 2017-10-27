@@ -1,0 +1,33 @@
+page-home {
+
+    .purple {
+        color: rebeccapurple;
+    }
+
+    .gentil {
+        width:220px;
+        height:220px;
+        text-align: center;
+        color: white;
+        font-size: 40px;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        position:absolute;
+        top:20%;
+        left:50%;
+        margin-left:-110px;
+    }
+
+    .qwerty {
+        background-color: rebeccapurple;
+    }
+
+    .botoes {
+        width:100px;
+        height:100px;
+        position:absolute;
+        top:50%;
+        left:50%;
+        margin-top:-50px;
+        margin-left:-50px;
+    }
+}

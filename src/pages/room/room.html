@@ -1,0 +1,20 @@
+<ion-header>
+
+  <ion-navbar color="rebeccapurple">
+    <ion-title> Gentilicos </ion-title>
+    <ion-buttons class="pontos" end>
+      Pontuação: {{pontos}}
+    </ion-buttons>
+  </ion-navbar>
+
+</ion-header>
+
+<ion-content padding>
+  <h1> Pergunta </h1>
+  <p> {{pergunta}} </p>
+
+  <ion-list *ngFor="let resposta of respostas" >
+    <button ion-item (click)="verificarResposta(resposta)">{{resposta}}</button>
+  </ion-list>
+
+</ion-content>
